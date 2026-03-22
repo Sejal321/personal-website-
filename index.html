@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sejal — CS &amp; Tech Enthusiast</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+  <!-- ─── Navigation ─────────────────────────────────── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Sejal<span class="accent">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#vision">Vision</a></li>
+        <li><a href="#contact" class="nav-cta">Say Hello</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── Hero ───────────────────────────────────────── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+      <canvas id="particles"></canvas>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting reveal">Hi, I'm</p>
+      <h1 class="hero-name reveal">Sejal</h1>
+      <h2 class="hero-tagline reveal">
+        <span id="typed-text"></span><span class="cursor">|</span>
+      </h2>
+      <p class="hero-sub reveal">
+        Computer Science enthusiast · Aspiring founder · Building the future one line at a time.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn btn-primary">See My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">
+      <div class="scroll-arrow"></div>
+    </a>
+  </section>
+
+  <!-- ─── About ──────────────────────────────────────── -->
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section-title fade-in">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <p>
+            I'm a passionate computer science student with a deep love for
+            technology and its power to reshape the world. From writing my
+            first <code>Hello, World!</code> to architecting full-stack
+            applications, every step has fuelled my curiosity further.
+          </p>
+          <p>
+            I believe technology is the greatest lever for impact. My goal is
+            to channel that belief into founding a startup that solves real
+            problems at scale — building products people love and a brand that
+            stands for innovation, integrity, and relentless learning.
+          </p>
+          <p>
+            When I'm not coding, I'm exploring the latest in AI, reading about
+            startup culture, or brainstorming the next big idea over a strong
+            cup of coffee ☕.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <span class="highlight-number">10+</span>
+              <span class="highlight-label">Projects Built</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-number">5+</span>
+              <span class="highlight-label">Languages</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-number">∞</span>
+              <span class="highlight-label">Ideas</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-card fade-in">
+          <div class="card-inner">
+            <div class="avatar-ring">
+              <div class="avatar-initials">S</div>
+            </div>
+            <div class="card-tags">
+              <span class="tag">🤖 AI/ML</span>
+              <span class="tag">🌐 Web Dev</span>
+              <span class="tag">☁️ Cloud</span>
+              <span class="tag">📊 Data</span>
+              <span class="tag">🚀 Startups</span>
+              <span class="tag">🔐 Security</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Skills ─────────────────────────────────────── -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <h2 class="section-title fade-in">Tech Stack</h2>
+      <p class="section-sub fade-in">The tools I use to bring ideas to life</p>
+      <div class="skills-grid">
+
+        <div class="skill-category fade-in">
+          <h3 class="category-title">Languages</h3>
+          <div class="skill-pills">
+            <span class="pill">Python</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">TypeScript</span>
+            <span class="pill">Java</span>
+            <span class="pill">C++</span>
+            <span class="pill">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in">
+          <h3 class="category-title">Frontend</h3>
+          <div class="skill-pills">
+            <span class="pill">React</span>
+            <span class="pill">HTML/CSS</span>
+            <span class="pill">Tailwind CSS</span>
+            <span class="pill">Next.js</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in">
+          <h3 class="category-title">Backend &amp; Cloud</h3>
+          <div class="skill-pills">
+            <span class="pill">Node.js</span>
+            <span class="pill">Flask</span>
+            <span class="pill">PostgreSQL</span>
+            <span class="pill">Firebase</span>
+            <span class="pill">AWS</span>
+            <span class="pill">Docker</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in">
+          <h3 class="category-title">AI / ML</h3>
+          <div class="skill-pills">
+            <span class="pill">TensorFlow</span>
+            <span class="pill">scikit-learn</span>
+            <span class="pill">Pandas</span>
+            <span class="pill">OpenAI API</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Projects ───────────────────────────────────── -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <h2 class="section-title fade-in">Featured Projects</h2>
+      <p class="section-sub fade-in">A selection of things I've built</p>
+      <div class="projects-grid">
+
+        <article class="project-card fade-in">
+          <div class="project-header">
+            <span class="project-icon">🤖</span>
+            <div class="project-links">
+              <a href="#" class="icon-link" aria-label="GitHub" title="GitHub">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.21c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.49v-1.71c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05A9.36 9.36 0 0 1 12 7.43c.85 0 1.71.12 2.51.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.8-4.57 5.05.36.32.68.94.68 1.9v2.82c0 .27.18.59.69.49A10.21 10.21 0 0 0 22 12.21C22 6.58 17.52 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">AI Study Companion</h3>
+          <p class="project-desc">
+            A smart study assistant powered by OpenAI that generates personalised
+            quizzes, summarises lecture notes, and tracks learning progress
+            over time.
+          </p>
+          <div class="project-tags">
+            <span class="tag-sm">Python</span>
+            <span class="tag-sm">OpenAI API</span>
+            <span class="tag-sm">React</span>
+            <span class="tag-sm">Flask</span>
+          </div>
+        </article>
+
+        <article class="project-card fade-in">
+          <div class="project-header">
+            <span class="project-icon">📊</span>
+            <div class="project-links">
+              <a href="#" class="icon-link" aria-label="GitHub" title="GitHub">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.21c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.49v-1.71c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05A9.36 9.36 0 0 1 12 7.43c.85 0 1.71.12 2.51.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.8-4.57 5.05.36.32.68.94.68 1.9v2.82c0 .27.18.59.69.49A10.21 10.21 0 0 0 22 12.21C22 6.58 17.52 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Market Trend Analyser</h3>
+          <p class="project-desc">
+            A data pipeline that scrapes and analyses startup funding trends,
+            surfaces insights using NLP, and visualises results in an
+            interactive dashboard.
+          </p>
+          <div class="project-tags">
+            <span class="tag-sm">Python</span>
+            <span class="tag-sm">Pandas</span>
+            <span class="tag-sm">scikit-learn</span>
+            <span class="tag-sm">Plotly</span>
+          </div>
+        </article>
+
+        <article class="project-card fade-in">
+          <div class="project-header">
+            <span class="project-icon">🔐</span>
+            <div class="project-links">
+              <a href="#" class="icon-link" aria-label="GitHub" title="GitHub">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.21c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.49v-1.71c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05A9.36 9.36 0 0 1 12 7.43c.85 0 1.71.12 2.51.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.8-4.57 5.05.36.32.68.94.68 1.9v2.82c0 .27.18.59.69.49A10.21 10.21 0 0 0 22 12.21C22 6.58 17.52 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">SecurePass Manager</h3>
+          <p class="project-desc">
+            An end-to-end encrypted password manager with zero-knowledge
+            architecture, biometric authentication, and a browser extension
+            for auto-fill.
+          </p>
+          <div class="project-tags">
+            <span class="tag-sm">TypeScript</span>
+            <span class="tag-sm">Node.js</span>
+            <span class="tag-sm">PostgreSQL</span>
+            <span class="tag-sm">WebCrypto</span>
+          </div>
+        </article>
+
+        <article class="project-card fade-in">
+          <div class="project-header">
+            <span class="project-icon">🌐</span>
+            <div class="project-links">
+              <a href="#" class="icon-link" aria-label="GitHub" title="GitHub">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.21c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.49v-1.71c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05A9.36 9.36 0 0 1 12 7.43c.85 0 1.71.12 2.51.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.8-4.57 5.05.36.32.68.94.68 1.9v2.82c0 .27.18.59.69.49A10.21 10.21 0 0 0 22 12.21C22 6.58 17.52 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">CollabSpace</h3>
+          <p class="project-desc">
+            A real-time collaboration platform for remote teams with shared
+            whiteboards, instant messaging, and integrated code-review
+            workflows — think Figma meets GitHub.
+          </p>
+          <div class="project-tags">
+            <span class="tag-sm">Next.js</span>
+            <span class="tag-sm">WebSockets</span>
+            <span class="tag-sm">Firebase</span>
+            <span class="tag-sm">AWS</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Vision ─────────────────────────────────────── -->
+  <section class="section vision" id="vision">
+    <div class="container">
+      <h2 class="section-title fade-in">My Vision</h2>
+      <p class="section-sub fade-in">Where I'm headed and why it matters</p>
+      <div class="vision-grid">
+        <div class="vision-text fade-in">
+          <blockquote class="vision-quote">
+            "The best way to predict the future is to build it."
+            <cite>— Alan Kay</cite>
+          </blockquote>
+          <p>
+            My long-term goal is to found a tech startup that tackles a
+            meaningful problem — whether that's in EdTech, FinTech, or
+            developer tooling. I'm actively building the skills, network,
+            and mindset needed to make that happen.
+          </p>
+          <p>
+            Every project I take on is a stepping-stone: I'm learning how
+            to ship fast, listen to users, and iterate relentlessly. I'm
+            not just studying computer science — I'm studying how great
+            companies get built.
+          </p>
+        </div>
+        <div class="milestones fade-in">
+          <div class="milestone active">
+            <div class="milestone-dot"></div>
+            <div class="milestone-body">
+              <h4>Master the Craft</h4>
+              <p>Build solid full-stack and AI foundations through hands-on projects.</p>
+            </div>
+          </div>
+          <div class="milestone active">
+            <div class="milestone-dot"></div>
+            <div class="milestone-body">
+              <h4>Grow the Network</h4>
+              <p>Connect with founders, engineers, and investors who share the vision.</p>
+            </div>
+          </div>
+          <div class="milestone">
+            <div class="milestone-dot"></div>
+            <div class="milestone-body">
+              <h4>Find the Problem</h4>
+              <p>Identify a high-impact problem with a large, underserved market.</p>
+            </div>
+          </div>
+          <div class="milestone">
+            <div class="milestone-dot"></div>
+            <div class="milestone-body">
+              <h4>Launch &amp; Scale</h4>
+              <p>Build an MVP, validate with real users, and grow to product-market fit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Contact ────────────────────────────────────── -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title fade-in">Let's Connect</h2>
+      <p class="section-sub fade-in">
+        Whether you want to collaborate, chat about startups, or just say hi —
+        my inbox is always open.
+      </p>
+      <div class="contact-grid">
+        <div class="contact-links fade-in">
+          <a href="mailto:hello@sejal.dev" class="contact-card">
+            <span class="contact-icon">✉️</span>
+            <div>
+              <h4>Email</h4>
+              <p>hello@sejal.dev</p>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/sejal" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <span class="contact-icon">💼</span>
+            <div>
+              <h4>LinkedIn</h4>
+              <p>linkedin.com/in/sejal</p>
+            </div>
+          </a>
+          <a href="https://github.com/Sejal321" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <span class="contact-icon">🐙</span>
+            <div>
+              <h4>GitHub</h4>
+              <p>github.com/Sejal321</p>
+            </div>
+          </a>
+          <a href="https://twitter.com/sejal_builds" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <span class="contact-icon">🐦</span>
+            <div>
+              <h4>Twitter / X</h4>
+              <p>@sejal_builds</p>
+            </div>
+          </a>
+        </div>
+        <form class="contact-form fade-in" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            Send Message <span class="btn-arrow">→</span>
+          </button>
+          <p class="form-note" id="form-note"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Footer ─────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        Designed &amp; built by <strong>Sejal</strong> · Powered by curiosity &amp; caffeine ☕
+      </p>
+      <p class="footer-note">© <span id="year"></span> · Always building something new.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
