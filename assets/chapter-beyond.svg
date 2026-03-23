@@ -1,0 +1,16 @@
+ v<svg width="800" height="640" viewBox="0 0 800 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="640" rx="36" fill="#0B1225"/>
+  <circle cx="164" cy="156" r="110" fill="#8B5CF6" fill-opacity="0.2"/>
+  <circle cx="650" cy="492" r="120" fill="#38BDF8" fill-opacity="0.12"/>
+  <rect x="82" y="82" width="636" height="476" rx="32" fill="#101A31" stroke="#2D436E"/>
+  <text x="122" y="140" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="800">BEYOND THE TITLE</text>
+  <rect x="126" y="194" width="150" height="150" rx="26" fill="#16213F"/>
+  <text x="172" y="282" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="64">♟</text>
+  <rect x="326" y="194" width="150" height="150" rx="26" fill="#10263A"/>
+  <text x="380" y="284" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="58">⌂</text>
+  <rect x="526" y="194" width="150" height="150" rx="26" fill="#22143E"/>
+  <text x="576" y="284" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="56">λ</text>
+  <rect x="126" y="382" width="550" height="112" rx="24" fill="#131D37"/>
+  <text x="162" y="430" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">builder · teacher · strategist · closer</text>
+  <text x="162" y="466" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="22">work ethic that people remember</text>
+</svg>

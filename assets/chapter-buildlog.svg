@@ -1,0 +1,23 @@
+<svg width="800" height="640" viewBox="0 0 800 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="640" rx="36" fill="#0B1225"/>
+  <rect x="76" y="76" width="648" height="488" rx="28" fill="#101A31" stroke="#2D436E"/>
+  <rect x="124" y="126" width="552" height="388" rx="24" fill="#0F172A" stroke="#334155"/>
+  <rect x="124" y="126" width="552" height="56" rx="24" fill="#16213F"/>
+  <circle cx="164" cy="154" r="8" fill="#F97316"/>
+  <circle cx="190" cy="154" r="8" fill="#FACC15"/>
+  <circle cx="216" cy="154" r="8" fill="#22C55E"/>
+  <text x="250" y="162" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">VANTAGE AI</text>
+  <rect x="160" y="214" width="152" height="252" rx="18" fill="#131D37"/>
+  <text x="184" y="258" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">5,000+</text>
+  <text x="184" y="292" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="18">equities tracked</text>
+  <rect x="340" y="214" width="300" height="118" rx="18" fill="#131D37"/>
+  <path d="M366 298C396 274 418 286 442 252C466 218 500 221 528 236C556 251 582 238 614 206" stroke="#38BDF8" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="442" cy="252" r="10" fill="#8B5CF6"/>
+  <circle cx="528" cy="236" r="10" fill="#F97316"/>
+  <rect x="340" y="350" width="140" height="116" rx="18" fill="#22143E"/>
+  <text x="364" y="392" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">$5</text>
+  <text x="364" y="424" fill="#DDD6FE" font-family="Inter, Arial, sans-serif" font-size="18">micro invest</text>
+  <rect x="500" y="350" width="140" height="116" rx="18" fill="#10263A"/>
+  <text x="524" y="392" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">+30%</text>
+  <text x="524" y="424" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="18">adoption</text>
+</svg>

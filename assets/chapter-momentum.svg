@@ -1,0 +1,43 @@
+<svg width="800" height="360" viewBox="0 0 800 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Warm paper background -->
+  <rect width="800" height="360" rx="12" fill="#f5efe6"/>
+
+  <!-- Timeline line -->
+  <line x1="80" y1="180" x2="720" y2="180" stroke="#c8956c" stroke-width="3" stroke-dasharray="8 6" opacity=".35"/>
+
+  <!-- 2022 — Amazon -->
+  <circle cx="160" cy="180" r="28" fill="#c8956c" opacity=".15"/>
+  <circle cx="160" cy="180" r="10" fill="#c8956c"/>
+  <text x="160" y="140" fill="#1c1712" font-family="Playfair Display, Georgia, serif" font-size="22" font-weight="700" text-anchor="middle">Amazon</text>
+  <text x="160" y="228" fill="#6b5e52" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="middle">SDE Intern</text>
+  <text x="160" y="248" fill="#8a6540" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="1.5">2022</text>
+
+  <!-- 2023 — Bell Media -->
+  <circle cx="340" cy="180" r="28" fill="#c8956c" opacity=".15"/>
+  <circle cx="340" cy="180" r="10" fill="#c8956c"/>
+  <text x="340" y="140" fill="#1c1712" font-family="Playfair Display, Georgia, serif" font-size="22" font-weight="700" text-anchor="middle">Bell Media</text>
+  <text x="340" y="228" fill="#6b5e52" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Software Dev</text>
+  <text x="340" y="248" fill="#8a6540" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="1.5">2023</text>
+
+  <!-- 2024 — Oracle NetSuite -->
+  <circle cx="510" cy="180" r="28" fill="#c8956c" opacity=".15"/>
+  <circle cx="510" cy="180" r="10" fill="#c8956c"/>
+  <text x="510" y="134" fill="#1c1712" font-family="Playfair Display, Georgia, serif" font-size="20" font-weight="700" text-anchor="middle">Oracle</text>
+  <text x="510" y="156" fill="#1c1712" font-family="Playfair Display, Georgia, serif" font-size="20" font-weight="700" text-anchor="middle">NetSuite</text>
+  <text x="510" y="228" fill="#6b5e52" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Full-Stack Dev</text>
+  <text x="510" y="248" fill="#8a6540" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="1.5">2024</text>
+
+  <!-- 2025 — RBC -->
+  <circle cx="670" cy="180" r="32" fill="#c8956c" opacity=".2"/>
+  <circle cx="670" cy="180" r="12" fill="#8a6540"/>
+  <text x="670" y="134" fill="#1c1712" font-family="Playfair Display, Georgia, serif" font-size="22" font-weight="700" text-anchor="middle">Royal Bank</text>
+  <text x="670" y="156" fill="#1c1712" font-family="Playfair Display, Georgia, serif" font-size="22" font-weight="700" text-anchor="middle">of Canada</text>
+  <text x="670" y="228" fill="#6b5e52" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Sr. Software Eng</text>
+  <text x="670" y="248" fill="#8a6540" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="1.5">2025</text>
+
+  <!-- Arrow at the end -->
+  <path d="M720 180 L740 180 L734 174 M740 180 L734 186" stroke="#c8956c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle label -->
+  <text x="400" y="320" fill="#6b5e52" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="3" opacity=".5">CAREER TIMELINE</text>
+</svg>

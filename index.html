@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CATALYST Magazine — The Sejal Sahni Issue. Engineer, operator, founder energy." />
+    <link rel="canonical" href="https://sejalsahni.xyz" />
+    <meta property="og:title" content="CATALYST — The Sejal Sahni Issue" />
+    <meta property="og:description" content="Engineer. Founder. First internship at 16. Now building at scale." />
+    <meta property="og:url" content="https://sejalsahni.xyz" />
+    <meta property="og:type" content="website" />
+    <title>CATALYST — The Sejal Sahni Issue | sejalsahni.xyz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+
+    <!-- TOC slide-out -->
+    <nav class="toc" id="toc" aria-label="Table of Contents">
+      <button class="toc-close" id="tocClose">&times;</button>
+      <p class="toc-label">Table of Contents</p>
+      <h2 class="toc-title">CATALYST</h2>
+      <ul class="toc-list">
+        <li><a data-goto="0"><span class="toc-num">00</span> Cover</a></li>
+        <li><a data-goto="1"><span class="toc-num">01</span> I Love to Build</a></li>
+        <li><a data-goto="2"><span class="toc-num">02</span> Momentum</a></li>
+        <li><a data-goto="3"><span class="toc-num">03</span> Impact</a></li>
+        <li><a data-goto="4"><span class="toc-num">04</span> Build Log</a></li>
+        <li><a data-goto="5"><span class="toc-num">05</span> Beyond the Title</a></li>
+        <li><a data-goto="6"><span class="toc-num">06</span> Next Chapter</a></li>
+      </ul>
+      <p class="toc-footer">Spring 2026 · Toronto Edition</p>
+    </nav>
+
+    <!-- Fixed controls -->
+    <div class="controls">
+      <button class="ctrl-btn" id="tocBtn">☰ Contents</button>
+      <span class="ctrl-page" id="ctrlPage">Cover</span>
+      <div class="ctrl-arrows">
+        <button class="ctrl-btn" id="prevBtn">← Prev</button>
+        <button class="ctrl-btn" id="nextBtn">Next →</button>
+      </div>
+    </div>
+
+    <!-- ════════════════════════════════════════
+         MAGAZINE
+         ════════════════════════════════════════ -->
+    <div class="desk">
+      <div class="magazine" id="magazine">
+
+        <!-- ══ COVER ══ -->
+        <div class="page" data-page="0">
+          <div class="page-inner page-cover">
+            <!-- Full-bleed cover photo -->
+            <img class="cover-bg" src="./assets/cover-photo.jpg" alt="Sejal Sahni" />
+
+            <!-- All text overlaid on top of the photo -->
+            <div class="cover-overlay">
+              <div class="cover-top">
+                <p class="cover-issue">Spring 2026 · Issue No. 01</p>
+                <h1 class="cover-masthead">CATALYST</h1>
+                <p class="cover-tagline">Code · Strategy · Momentum</p>
+              </div>
+
+              <div class="cover-sides">
+                <div class="cover-side cover-side-left">
+                  <p class="cover-line cl-lg">Chess<br/>Champion</p>
+                  <p class="cover-line cl-sm">Software<br/>Engineer</p>
+                  <p class="cover-line cl-xl">DSA<br/>Instructor</p>
+                  <p class="cover-line cl-xs">University of<br/>Toronto</p>
+                  <p class="cover-line cl-md">Founder of<br/>Vantage AI</p>
+                </div>
+                <div class="cover-side cover-side-right">
+                  <p class="cover-line cl-md">Real Estate<br/>Agent</p>
+                  <p class="cover-line cl-xl">Amazon ·<br/>RBC · Oracle</p>
+                  <p class="cover-line cl-sm">Full-Stack &<br/>Cloud Native</p>
+                  <p class="cover-line cl-lg">University of<br/>Toronto</p>
+                  <p class="cover-line cl-xs">San Francisco<br/>Based</p>
+                </div>
+              </div>
+
+              <div class="cover-bottom">
+                <h2 class="cover-name">Sejal Sahni</h2>
+              </div>
+            </div>
+
+            <p class="pg cover-pg">Cover</p>
+          </div>
+        </div>
+
+        <!-- ══ PAGE 01 — OPENING ══ -->
+        <div class="page" data-page="1">
+          <div class="page-inner page-light fullpage-text">
+            <p class="ch-num">Chapter 01</p>
+            <h2 class="ch-title">I Love to Build</h2>
+            <p class="ch-lead">I started my first internship at 16 and I never stopped shipping.</p>
+            <p class="ch-body">Today I work across banking, product, data, and infrastructure with the pace of a founder and the polish of someone who has already done the reps.</p>
+            <blockquote class="ch-quote">"Give me the hardest problem on the team. I'll ship it, document it, and make everyone around me faster."</blockquote>
+            <p class="pg">01</p>
+          </div>
+        </div>
+
+        <!-- ══ PAGE 02 — MOMENTUM ══ -->
+        <div class="page" data-page="2">
+          <div class="page-inner page-light stacked-page">
+            <div class="stacked-visual">
+              <img src="./assets/chapter-momentum.svg" alt="Career timeline visual" />
+            </div>
+            <div class="stacked-content">
+              <p class="ch-num">Chapter 02 · Momentum</p>
+              <div class="card-grid-2x2">
+                <div class="mini-card"><p class="mini-kicker">2025 · Present</p><h3>Royal Bank of Canada</h3><p>Senior Software Engineer</p></div>
+                <div class="mini-card"><p class="mini-kicker">2024 · 2025</p><h3>Oracle NetSuite</h3><p>Full-Stack Developer</p></div>
+                <div class="mini-card"><p class="mini-kicker">2023</p><h3>Bell Media</h3><p>Software Developer</p></div>
+                <div class="mini-card"><p class="mini-kicker">2022</p><h3>Amazon</h3><p>Software Development Engineer Intern</p></div>
+              </div>
+            </div>
+            <p class="pg">02</p>
+          </div>
+        </div>
+
+        <!-- ══ PAGE 03 — PROOF ══ -->
+        <div class="page" data-page="3">
+          <div class="page-inner page-dark fullpage-text">
+            <p class="ch-num">Chapter 03</p>
+            <h2 class="ch-title">Impact</h2>
+            <p class="ch-lead">Less talking. More outcomes.</p>
+            <div class="card-grid-2x2">
+              <div class="stat-card"><strong>15%</strong><span>Transaction capacity at RBC</span></div>
+              <div class="stat-card"><strong>150ms</strong><span>Latency cut via AWS</span></div>
+              <div class="stat-card"><strong>100k+</strong><span>Records fixed at NetSuite Oracle</span></div>
+              <div class="stat-card"><strong>25%</strong><span>Availability boost at Amazon</span></div>
+            </div>
+            <div class="pill-row">
+              <span>RBC</span><span>Oracle NetSuite</span><span>Bell Media</span><span>Amazon</span>
+            </div>
+            <p class="pg">03</p>
+          </div>
+        </div>
+
+        <!-- ══ PAGE 04 — BUILD LOG ══ -->
+        <div class="page" data-page="4">
+          <div class="page-inner page-light fullpage-text">
+            <p class="ch-num">Chapter 04 · Feature Story</p>
+            <h2 class="ch-title">Build Log</h2>
+            <h3 class="feature-label">Vantage AI</h3>
+            <p class="ch-lead">AI trading engine. Real-time sentiment.</p>
+            <ul class="arrow-list">
+              <li>5,000+ equities tracked in real time</li>
+              <li>$5 micro-investments via Stripe</li>
+              <li>30% adoption lift from faster search</li>
+            </ul>
+            <div class="pill-row">
+              <span>Python</span><span>FastAPI</span><span>Django</span><span>PostgreSQL</span><span>React</span><span>AWS</span><span>LLMs</span>
+            </div>
+            <p class="pg">04</p>
+          </div>
+        </div>
+
+        <!-- ══ PAGE 05 — BEYOND ══ -->
+        <div class="page" data-page="5">
+          <div class="page-inner page-dark fullpage-text">
+            <p class="ch-num">Chapter 05</p>
+            <h2 class="ch-title">Beyond the Title</h2>
+            <p class="ch-lead">Founder energy and the kind of work ethic people remember.</p>
+            <div class="card-grid-2x2">
+              <div class="mini-card"><h3>Builder</h3><p>Microservices, platforms, data.</p></div>
+              <div class="mini-card"><h3>Instructor</h3><p>DSA at a university level.</p></div>
+              <div class="mini-card"><h3>Strategist</h3><p>Chess-trained systems thinking.</p></div>
+              <div class="mini-card"><h3>Closer</h3><p>Real-estate execution.</p></div>
+            </div>
+            <div class="edu-block">
+              <p class="mini-kicker">Foundation</p>
+              <h3>U of T · BSc Computer Science</h3>
+              <p>Statistics & Math minors. ESRI Conference presenter.</p>
+            </div>
+            <p class="pg">05</p>
+          </div>
+        </div>
+
+        <!-- ══ PAGE 06 — BACK COVER ══ -->
+        <div class="page" data-page="6">
+          <div class="page-inner page-back">
+            <p class="ch-num">Chapter 06</p>
+            <h2 class="back-title">Next Chapter?</h2>
+            <p class="back-body">I'm building, teaching, and always up for ambitious work.</p>
+            <div class="back-links">
+              <a href="mailto:Sejal.s.dev@gmail.com">Sejal.s.dev@gmail.com</a>
+              <a href="tel:+16479820296">647-982-0296</a>
+              <a href="https://www.linkedin.com/in/sejalsahni/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+              <a href="https://github.com/sejal321" target="_blank" rel="noreferrer">GitHub ↗</a>
+            </div>
+            <p class="back-colophon">CATALYST · Spring 2026 · The Sejal Sahni Issue</p>
+            <p class="copyright">&copy; <span id="year"></span> Sejal Sahni</p>
+            <p class="pg">06</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

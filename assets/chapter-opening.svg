@@ -1,0 +1,38 @@
+<svg width="800" height="640" viewBox="0 0 800 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="640" rx="36" fill="#0B1225"/>
+  <circle cx="650" cy="112" r="118" fill="#7C3AED" fill-opacity="0.22"/>
+  <circle cx="138" cy="514" r="124" fill="#38BDF8" fill-opacity="0.16"/>
+  <rect x="62" y="70" width="278" height="150" rx="26" fill="#131D37" stroke="#2D436E"/>
+  <text x="94" y="124" fill="#A78BFA" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">CHAPTER 01</text>
+  <text x="94" y="170" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800">OPENING</text>
+  <text x="94" y="204" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800">MOVE</text>
+  <rect x="86" y="274" width="252" height="252" rx="20" fill="#0F172A" stroke="#334155"/>
+  <g opacity="0.9">
+    <rect x="86" y="274" width="63" height="63" fill="#1E293B"/>
+    <rect x="149" y="274" width="63" height="63" fill="#0F172A"/>
+    <rect x="212" y="274" width="63" height="63" fill="#1E293B"/>
+    <rect x="275" y="274" width="63" height="63" fill="#0F172A"/>
+    <rect x="86" y="337" width="63" height="63" fill="#0F172A"/>
+    <rect x="149" y="337" width="63" height="63" fill="#1E293B"/>
+    <rect x="212" y="337" width="63" height="63" fill="#0F172A"/>
+    <rect x="275" y="337" width="63" height="63" fill="#1E293B"/>
+    <rect x="86" y="400" width="63" height="63" fill="#1E293B"/>
+    <rect x="149" y="400" width="63" height="63" fill="#0F172A"/>
+    <rect x="212" y="400" width="63" height="63" fill="#1E293B"/>
+    <rect x="275" y="400" width="63" height="63" fill="#0F172A"/>
+    <rect x="86" y="463" width="63" height="63" fill="#0F172A"/>
+    <rect x="149" y="463" width="63" height="63" fill="#1E293B"/>
+    <rect x="212" y="463" width="63" height="63" fill="#0F172A"/>
+    <rect x="275" y="463" width="63" height="63" fill="#1E293B"/>
+  </g>
+  <path d="M530 226C577.496 226 616 187.496 616 140C616 92.5035 577.496 54 530 54C482.504 54 444 92.5035 444 140C444 187.496 482.504 226 530 226Z" fill="#111827" stroke="#A78BFA" stroke-width="6"/>
+  <path d="M502 117C507 102 523 92 540 92C557 92 573 102 578 117C568 122 559 128 551 137H529C521 128 512 122 502 117Z" fill="#F8FAFC"/>
+  <path d="M501 188C501 160 519 141 540 141C561 141 579 160 579 188V201H501V188Z" fill="#F8FAFC"/>
+  <path d="M432 346C486 305 552 292 626 306C675 315 717 340 744 374" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="558" cy="314" r="12" fill="#38BDF8"/>
+  <circle cx="652" cy="325" r="12" fill="#F97316"/>
+  <circle cx="716" cy="355" r="12" fill="#8B5CF6"/>
+  <rect x="458" y="430" width="256" height="120" rx="24" fill="#131D37" stroke="#334155"/>
+  <text x="486" y="475" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">started at 16</text>
+  <text x="486" y="512" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="22">strategy + code + momentum</text>
+</svg>

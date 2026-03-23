@@ -1,0 +1,10 @@
+{
+  "name": "sejal-personal-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Resume-driven personal website for Sejal Sahni",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node scripts/smoke-test.mjs"
+  }
+}
